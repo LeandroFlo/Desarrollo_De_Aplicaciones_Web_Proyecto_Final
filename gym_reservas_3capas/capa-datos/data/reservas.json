@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "usuarioId": 1,
+    "claseId": 1,
+    "profesor": "Profesor Yoga",
+    "date": "2025-10-30",
+    "time": "18:30"
+  },
+  {
+    "id": 2,
+    "usuarioId": 2,
+    "claseId": 1,
+    "profesor": "Profesor Yoga",
+    "date": "2025-11-26",
+    "time": "15:40"
+  }
+]
