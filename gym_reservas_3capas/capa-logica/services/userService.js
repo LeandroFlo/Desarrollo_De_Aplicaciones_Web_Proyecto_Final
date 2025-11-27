@@ -3,8 +3,7 @@ const userRepo = require("../../capa-datos/repositories/userRepo");
 function getOrCreateUser(nombre) {
   nombre = String(nombre || "").trim();
   if (!nombre) {
-    // devolver un usuario "anónimo" no recomendado, mejor devolver error desde presentación
-    // pero aquí devolvemos null para que la capa de presentación pueda manejarlo.
+   
     return null;
   }
 
