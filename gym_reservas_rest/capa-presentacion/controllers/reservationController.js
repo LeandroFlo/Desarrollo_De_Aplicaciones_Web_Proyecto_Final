@@ -1,4 +1,4 @@
-// capa-presentacion/controllers/reservationController.js
+
 const reservationService = require("../../capa-logica/services/reservationService");
 
 async function createReservation(req, res, next) {

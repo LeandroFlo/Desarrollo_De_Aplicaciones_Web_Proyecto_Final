@@ -1,4 +1,3 @@
-// capa-datos/repositories/reservationRepo.js
 const Reservation = require("../models/reservation");
 
 async function create(data) {

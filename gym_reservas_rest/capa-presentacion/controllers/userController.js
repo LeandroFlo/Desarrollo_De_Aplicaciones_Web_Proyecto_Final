@@ -1,4 +1,4 @@
-// capa-presentacion/controllers/userController.js
+
 const userService = require("../../capa-logica/services/userService");
 
 async function createUser(req, res, next) {

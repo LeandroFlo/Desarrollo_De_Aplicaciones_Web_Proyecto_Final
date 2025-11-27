@@ -1,4 +1,4 @@
-// capa-presentacion/controllers/clasesController.js
+
 const clases = [
   { id: 1, nombre: "Yoga" },
   { id: 2, nombre: "Profesor de Gym" },

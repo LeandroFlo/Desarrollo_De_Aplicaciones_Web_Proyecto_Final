@@ -1,4 +1,4 @@
-// server.js
+
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -8,10 +8,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Rutas
+
 app.use("/", routes);
 
-// Error handler simple (dev)
+
 app.use((err, req, res, next) => {
   console.error(err);
   res.status(500).json({ error: "Error interno del servidor" });

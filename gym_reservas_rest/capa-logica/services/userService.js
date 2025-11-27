@@ -1,10 +1,6 @@
-// capa-logica/services/userService.js
 const userRepo = require("../../capa-datos/repositories/userRepo");
 
-/**
- * Busca usuario por nombre; si no existe lo crea.
- * Devuelve el documento Mongoose del usuario.
- */
+
 async function getOrCreateUserByName(nombre) {
   nombre = String(nombre || "").trim();
   if (!nombre) throw { status: 400, error: "Nombre inválido." };

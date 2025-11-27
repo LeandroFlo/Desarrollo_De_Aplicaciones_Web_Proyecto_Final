@@ -1,4 +1,3 @@
-// capa-datos/repositories/userRepo.js
 const User = require("../models/user");
 
 async function create(userData) {
